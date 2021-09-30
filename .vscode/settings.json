@@ -1,0 +1,29 @@
+{
+    "files.exclude": {
+        "**/.husky": true,
+        "assets": true,
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/build": true,
+        "**/coverage": true
+    },
+    "editor.rulers": [
+        100
+    ],
+    "editor.formatOnSave": false,
+    "eslint.validate": [
+        "javascript",
+        "vue",
+        "html"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.quiet": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
